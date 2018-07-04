@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSequenceOfEqual", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTask", "WindowsTask\WindowsTask.csproj", "{3617459D-2B32-4D22-90D4-301E82819ED5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixSum3x3", "MatrixSum3x3\MatrixSum3x3.csproj", "{24E72409-ECD3-49F8-A6CC-7A64189D45D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nFactorial", "nFactorial\nFactorial.csproj", "{AC919613-091B-4E99-91F2-6AF44EFD013F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,14 @@ Global
 		{3617459D-2B32-4D22-90D4-301E82819ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3617459D-2B32-4D22-90D4-301E82819ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3617459D-2B32-4D22-90D4-301E82819ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E72409-ECD3-49F8-A6CC-7A64189D45D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E72409-ECD3-49F8-A6CC-7A64189D45D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E72409-ECD3-49F8-A6CC-7A64189D45D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E72409-ECD3-49F8-A6CC-7A64189D45D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
