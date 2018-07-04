@@ -12,6 +12,7 @@ namespace LongestSequenceOfEqual
             if (LineNumber < 1 || LineNumber > 1024) return;
             var NumbersList = new Dictionary<int, int>(LineNumber);
             int prevInt = 0;
+            // Console.ReadLine() until i = LineNumber--;
             for (int i = 0; i < LineNumber; i++)
             {
                 var TempNumber = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
