@@ -223,5 +223,6 @@ Global
 		$2.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $3
 		$3.scope = text/x-csharp
+		$0.VersionControlPolicy = $4
 	EndGlobalSection
 EndGlobal
