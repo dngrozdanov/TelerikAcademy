@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace nFactorial
 {
@@ -6,14 +7,13 @@ namespace nFactorial
     {
         static void Main()
         {
-            int Factorial = int.Parse(Console.ReadLine());
-            if (Factorial < 0 || Factorial > 100) return;
-            Console.WriteLine(CalculateSingleFactorial(Factorial));
+            BigInteger Factorial = BigInteger.Parse(Console.ReadLine());
+            Console.WriteLine(CalculateFactorial(Factorial));
         }
 
-        static int CalculateSingleFactorial(int Factorial)
+        static BigInteger CalculateFactorial(BigInteger Factorial)
         {
-            int singleFactorial = 1;
+            BigInteger singleFactorial = 1;
             for (int i = 1; i <= Factorial; i++)
             {
                 singleFactorial = singleFactorial * i;
