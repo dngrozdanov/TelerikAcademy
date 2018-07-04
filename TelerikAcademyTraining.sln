@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixSum3x3", "MatrixSum3x
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nFactorial", "nFactorial\nFactorial.csproj", "{AC919613-091B-4E99-91F2-6AF44EFD013F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDeck", "PrintDeck\PrintDeck.csproj", "{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC919613-091B-4E99-91F2-6AF44EFD013F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

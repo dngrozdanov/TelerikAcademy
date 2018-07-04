@@ -3,8 +3,15 @@ using System.Linq;
 
 namespace MatrixSum3x3
 {
+    /// <summary>
+    /// Program.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// The entry point of the program, where the program control starts and ends.
+        /// </summary>
+        /// Matrix [row, col] to solve
         static void Main()
         {
             int N = 0, M = 0, Sum = 0;

@@ -12,6 +12,12 @@ namespace GCD
             Console.WriteLine(GCD(Digits[0], Digits[1]));
         }
 
+        /// <summary>
+        /// Gcd the specified a and b.
+        /// </summary>
+        /// <returns>The gcd.</returns>
+        /// <param name="a">The alpha component.</param>
+        /// <param name="b">The blue component.</param>
         private static int GCD(int a, int b)
         {
             var gcd = 0;
