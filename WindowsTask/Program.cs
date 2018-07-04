@@ -12,7 +12,7 @@ namespace WindowsTask
             // Task: Don't finish the task by doing it the easy way
             int n = 0, c = 0;
 
-            var firstLine = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+            var firstLine = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             n = firstLine[0];
             c = firstLine[1];
 
@@ -20,7 +20,7 @@ namespace WindowsTask
             {
                 int width = 0, height = 0, broken = 0;
 
-                var tempLine = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+                var tempLine = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
                 width = tempLine[0];
                 height = tempLine[1];
                 broken = tempLine[2];
@@ -28,9 +28,9 @@ namespace WindowsTask
                 WindowsDictionary.Add(i, new Tuple<int, int, int>(width, height, broken));
             }
             int TotalRepairSum = 0;
-            foreach (var brokenwindow in WindowsDictionary.Where(x => x.Value.Item3 == 0))
+            foreach (var brokenwindow in WindowsDictionary.Where(x => x.Value.Item3 == 1))
             {
-                TotalRepairSum += brokenwindow.Value.Item1 * brokenwindow.Value.Item2;
+                TotalRepairSum += (brokenwindow.Value.Item1 * brokenwindow.Value.Item2) * c;
             }
             Console.WriteLine(TotalRepairSum);
         }
