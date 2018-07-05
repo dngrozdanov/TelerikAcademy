@@ -11,7 +11,6 @@ namespace MatrixOfNumbers
         {
             // Solution: Matrix Used
             int N = int.Parse(Console.ReadLine());
-            int[,] matrix = new int[N, N];
 
             for (int i = 0; i < N; i++)
             {

@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOfNumbers", "MatrixOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayThreeGroups", "ArrayThreeGroups\ArrayThreeGroups.csproj", "{A7FF3F55-B830-441B-AF67-CD554884DE77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboveTheMainDiagonal", "AboveTheMainDiagonal\AboveTheMainDiagonal.csproj", "{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
