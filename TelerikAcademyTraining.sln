@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDeck", "PrintDeck\Prin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOfNumbers", "MatrixOfNumbers\MatrixOfNumbers.csproj", "{43ED448F-EC1C-402B-BF61-818818D812AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayThreeGroups", "ArrayThreeGroups\ArrayThreeGroups.csproj", "{A7FF3F55-B830-441B-AF67-CD554884DE77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{43ED448F-EC1C-402B-BF61-818818D812AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43ED448F-EC1C-402B-BF61-818818D812AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43ED448F-EC1C-402B-BF61-818818D812AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FF3F55-B830-441B-AF67-CD554884DE77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
