@@ -9,7 +9,7 @@ namespace MatrixOfNumbers
         /// </summary>
         static void Main()
         {
-            // Solution: Matrix Used
+            // Solution: No Matrix Used
             int N = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < N; i++)
