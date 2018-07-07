@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringChallenge", "StringCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringPractice", "StringPractice\StringPractice.csproj", "{C252C4AC-DBF1-42DC-B09F-FC03B6A79C73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTrainer", "PokemonTrainer\PokemonTrainer.csproj", "{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{C252C4AC-DBF1-42DC-B09F-FC03B6A79C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C252C4AC-DBF1-42DC-B09F-FC03B6A79C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C252C4AC-DBF1-42DC-B09F-FC03B6A79C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
