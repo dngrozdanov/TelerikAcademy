@@ -14,7 +14,8 @@ namespace Marks
             {
                 Score += num;
             }
-            Score = Score / MarksCount;
+            Score = Score - (MarksArray.Max() + MarksArray.Min());
+            Score = Score / (MarksCount - 2);
             Console.WriteLine(Math.Round(Score));
         }
     }

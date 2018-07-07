@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace PrimeTriangleWIP
 {
@@ -12,17 +11,22 @@ namespace PrimeTriangleWIP
             List<int> PrimeNumbers = new List<int>();
             for (int i = 0; i < Number; i++)
             {
-                if (IsPrime(i))
+                if (IsPrime(i) || i == 1 || i == 2)
                 {
-                    PrimeNumbers.Insert(0, i);
+                    PrimeNumbers.Add(i);
                 }
             }
-            for (int i = 1; i < PrimeNumbers.First(); i++)
+
+            for (int j = 0; j < PrimeNumbers.Count; j++)
             {
-                if (IsPrime(i) || i == 2)
-                    Console.Write(1);
-                else
-                    Console.Write(0);
+                for (int x = 1; x <= PrimeNumbers[j]; x++)
+                {
+                    if (IsPrime(x) || x == 1 || x == 2)
+                        Console.Write(1);
+                    else
+                        Console.Write(0);
+                }
+                Console.WriteLine();
             }
         }
 
