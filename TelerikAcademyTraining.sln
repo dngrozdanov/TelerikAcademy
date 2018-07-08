@@ -49,43 +49,45 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestNumber", "LargestNum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{B63AE5E8-F032-4973-A97D-787CAF09728F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marks", "Marks\Marks.csproj", "{C43C98DE-137D-4C35-A482-C8ACC176473E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marks", "Marks\Marks.csproj", "{C43C98DE-137D-4C35-A482-C8ACC176473E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppearanceCount", "AppearanceCount\AppearanceCount.csproj", "{6A30B359-DB41-4AED-9DCE-B69C6BDF2EC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppearanceCount", "AppearanceCount\AppearanceCount.csproj", "{6A30B359-DB41-4AED-9DCE-B69C6BDF2EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTrip", "BusTrip\BusTrip.csproj", "{A8506A2A-3E10-4E75-96B0-0415CD69F8CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusTrip", "BusTrip\BusTrip.csproj", "{A8506A2A-3E10-4E75-96B0-0415CD69F8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeIfGreater", "ExchangeIfGreater\ExchangeIfGreater.csproj", "{A070DBEF-7C5C-45E8-9634-67A720CC2409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeIfGreater", "ExchangeIfGreater\ExchangeIfGreater.csproj", "{A070DBEF-7C5C-45E8-9634-67A720CC2409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTriangleWIP", "PrimeTriangle\PrimeTriangleWIP.csproj", "{95C3F26B-0A8F-44E0-8190-BB5316162877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeTriangleWIP", "PrimeTriangle\PrimeTriangleWIP.csproj", "{95C3F26B-0A8F-44E0-8190-BB5316162877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinDigit", "MinDigit\MinDigit.csproj", "{FD5C9051-CFDF-4D4C-A7D7-DBDDEFE2AB21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinDigit", "MinDigit\MinDigit.csproj", "{FD5C9051-CFDF-4D4C-A7D7-DBDDEFE2AB21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateProblem", "CalculateProblem\CalculateProblem.csproj", "{FF0E2798-D7AA-495A-AA93-B5FA4C8BFA30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateProblem", "CalculateProblem\CalculateProblem.csproj", "{FF0E2798-D7AA-495A-AA93-B5FA4C8BFA30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAgain", "CalculateAgain\CalculateAgain.csproj", "{9A36B87C-6C2F-4EFC-BFFD-CAEC7BAC852E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateAgain", "CalculateAgain\CalculateAgain.csproj", "{9A36B87C-6C2F-4EFC-BFFD-CAEC7BAC852E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateThree", "CalculateThree\CalculateThree.csproj", "{ED5A9AEE-4C3B-479B-87AD-817B36C5D830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateThree", "CalculateThree\CalculateThree.csproj", "{ED5A9AEE-4C3B-479B-87AD-817B36C5D830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSequenceOfEqual", "LongestSequenceOfEqual\LongestSequenceOfEqual.csproj", "{22D6C598-B5D3-4383-AA87-0C387101C0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSequenceOfEqual", "LongestSequenceOfEqual\LongestSequenceOfEqual.csproj", "{22D6C598-B5D3-4383-AA87-0C387101C0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTask", "WindowsTask\WindowsTask.csproj", "{3617459D-2B32-4D22-90D4-301E82819ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsTask", "WindowsTask\WindowsTask.csproj", "{3617459D-2B32-4D22-90D4-301E82819ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nFactorial", "nFactorial\nFactorial.csproj", "{AC919613-091B-4E99-91F2-6AF44EFD013F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nFactorial", "nFactorial\nFactorial.csproj", "{AC919613-091B-4E99-91F2-6AF44EFD013F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDeck", "PrintDeck\PrintDeck.csproj", "{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDeck", "PrintDeck\PrintDeck.csproj", "{EACB2A91-4DA3-4C0F-9F66-861AA2661CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixOfNumbers", "MatrixOfNumbers\MatrixOfNumbers.csproj", "{43ED448F-EC1C-402B-BF61-818818D812AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixOfNumbers", "MatrixOfNumbers\MatrixOfNumbers.csproj", "{43ED448F-EC1C-402B-BF61-818818D812AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayThreeGroups", "ArrayThreeGroups\ArrayThreeGroups.csproj", "{A7FF3F55-B830-441B-AF67-CD554884DE77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayThreeGroups", "ArrayThreeGroups\ArrayThreeGroups.csproj", "{A7FF3F55-B830-441B-AF67-CD554884DE77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboveTheMainDiagonal", "AboveTheMainDiagonal\AboveTheMainDiagonal.csproj", "{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboveTheMainDiagonal", "AboveTheMainDiagonal\AboveTheMainDiagonal.csproj", "{61639319-53F4-4A76-BA3E-A13CF5B6DCAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringChallenge", "StringChallenge\StringChallenge.csproj", "{277F77DF-18F3-46A0-83C8-83F98D053E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringChallenge", "StringChallenge\StringChallenge.csproj", "{277F77DF-18F3-46A0-83C8-83F98D053E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringPractice", "StringPractice\StringPractice.csproj", "{C252C4AC-DBF1-42DC-B09F-FC03B6A79C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringPractice", "StringPractice\StringPractice.csproj", "{C252C4AC-DBF1-42DC-B09F-FC03B6A79C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTrainer", "PokemonTrainer\PokemonTrainer.csproj", "{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonTrainer", "PokemonTrainer\PokemonTrainer.csproj", "{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubSetOfSumS", "SubSetOfSumS\SubSetOfSumS.csproj", "{0DF5250D-505A-43F6-908D-75C6C49086A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D3C03AA-D246-43D0-B153-BE9933B0C1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF5250D-505A-43F6-908D-75C6C49086A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF5250D-505A-43F6-908D-75C6C49086A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF5250D-505A-43F6-908D-75C6C49086A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF5250D-505A-43F6-908D-75C6C49086A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

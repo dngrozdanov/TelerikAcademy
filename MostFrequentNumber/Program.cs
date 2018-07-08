@@ -1,27 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace MostFrequentNumber
+static class Program
 {
-    internal static class Program
+    static void Main()
     {
-        private static void Main()
+        short[] occuredShorts = new short[10001];
+        for (int i = 0; i < short.Parse(Console.ReadLine()); i++)
         {
-            var LineNumber = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
-            if (LineNumber < 1 || LineNumber > 1024) return;
-            var NumbersList = new Dictionary<int, int>(LineNumber);
-            for (var i = 0; i < LineNumber; i++)
-            {
-                var TempNumber = int.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
-                if (NumbersList.ContainsKey(TempNumber))
-                    NumbersList[TempNumber]++;
-                else
-                    NumbersList.Add(TempNumber, 1);
-            }
-            var Selected = NumbersList.First(x => x.Value == NumbersList.Values.Max());
-            Console.WriteLine("{0} ({1} times)", Selected.Key,
-                Selected.Value);
+            short number = short.Parse(Console.ReadLine());
+            occuredShorts[number]++;
         }
+
+        short bestNumber = 0;
+        short mostOccured = 0;
+
+        for (short i = 0; i < occuredShorts.Length; i++)
+        {
+            if (occuredShorts[i] > mostOccured)
+            {
+                mostOccured = occuredShorts[i];
+                bestNumber = i;
+            }
+        }
+
+        Console.WriteLine($"{bestNumber} ({mostOccured} times)");
     }
 }

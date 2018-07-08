@@ -1,0 +1,7 @@
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\bin\Debug\SubSsetOfSumS.exe.config
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\bin\Debug\SubSsetOfSumS.exe
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\bin\Debug\SubSsetOfSumS.pdb
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\obj\Debug\SubSsetOfSumS.csprojAssemblyReference.cache
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\obj\Debug\SubSsetOfSumS.csproj.CoreCompileInputs.cache
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\obj\Debug\SubSsetOfSumS.exe
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\SubSsetOfSumS\obj\Debug\SubSsetOfSumS.pdb

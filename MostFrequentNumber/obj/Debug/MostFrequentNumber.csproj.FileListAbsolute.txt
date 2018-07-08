@@ -1,0 +1,6 @@
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\MostFrequentNumber\bin\Debug\MostFrequentNumber.exe.config
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\MostFrequentNumber\bin\Debug\MostFrequentNumber.exe
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\MostFrequentNumber\bin\Debug\MostFrequentNumber.pdb
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\MostFrequentNumber\obj\Debug\MostFrequentNumber.csproj.CoreCompileInputs.cache
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\MostFrequentNumber\obj\Debug\MostFrequentNumber.exe
+C:\Users\SupportExTragoZ\Source\Repos\TelerikAcademy\MostFrequentNumber\obj\Debug\MostFrequentNumber.pdb
