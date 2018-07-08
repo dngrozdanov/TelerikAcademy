@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using System.Xml.Linq;
-using System.Runtime.CompilerServices;
 
 namespace PokemonTrainer
 {

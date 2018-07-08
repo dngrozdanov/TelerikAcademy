@@ -1,5 +1,4 @@
-﻿using System;
-namespace PokemonTrainer
+﻿namespace PokemonTrainer
 {
     public class Pokemon
     {
