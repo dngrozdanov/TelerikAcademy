@@ -7,9 +7,9 @@ namespace AppearanceCount
     {
         static void Main()
         {
-            int ArraySize = Convert.ToInt32(Console.ReadLine());
-            int[] ArrayNumbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            int FindArrayNumber = Convert.ToInt32(Console.ReadLine());
+            Console.ReadLine();
+            short[] ArrayNumbers = Console.ReadLine().Split().Select(short.Parse).ToArray();
+            short FindArrayNumber = short.Parse(Console.ReadLine());
             Console.WriteLine(ArrayNumbers.Count(x => x == FindArrayNumber));
         }
     }
