@@ -5,7 +5,7 @@ namespace Kitty
 {
     class Program
     {
-        static int Souls, Food, DeadLocks, Position, Step;
+        static int Souls, Food, DeadLocks, Position = 0, Step;
         static char[] PositionsOfItems;
         static int[] Steps;
 
@@ -13,47 +13,59 @@ namespace Kitty
         {
             PositionsOfItems = Console.ReadLine().ToArray();
             Steps = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            CollectItem(0);
 
-            for (int i = 0; i < PositionsOfItems.Length; i++)
+            for (int i = 0; i < Steps.Length; i++)
             {
-                CollectItem(0);
-                if (Position < 0)
+                if (Steps[i] < 0)
                 {
-                    Position = PositionsOfItems.Length + (Steps[Step] % PositionsOfItems.Length);
+                    Position = (Position + PositionsOfItems.Length + (Steps[i] % PositionsOfItems.Length)) % PositionsOfItems.Length;
                 }
-                else if (Position >= 0)
+                else if (Steps[i] >= 0)
                 {
-                    Position = Steps[Step] % PositionsOfItems.Length;
+                    Position = (Position + Steps[i]) % PositionsOfItems.Length;
                 }
-                CollectItem(Position);
-                if (Step++ > Steps.Length)
-                {
-                    Console.WriteLine($"{Souls} | {Food} | {DeadLocks}");
-                    return;
-                }
+                //Console.WriteLine(Position);
                 Step++;
+                CollectItem(Position);
             }
+            Console.WriteLine($"Coder souls collected: {Souls}{Environment.NewLine}Food collected: {Food}{Environment.NewLine}Deadlocks: {DeadLocks}");
         }
 
         static void CollectItem(int position)
         {
-            if (PositionsOfItems[position] == '@')
-                Souls++;
-            else if (PositionsOfItems[position] == '*')
-                Food++;
-            else if (PositionsOfItems[position] == 'x')
+            switch (PositionsOfItems[position])
             {
-                DeadLocks++;
-                if (Food == 0 && Souls == 0)
-                {
-                    Console.WriteLine("You are deadlocked, you greedy kitty!");
-                    Console.WriteLine($"Jumps before deadlock: {Step}");
-                    return;
-                }
-                if (IsOdd(position))
-                    Food--;
-                else
-                    Souls--;
+                case '@':
+                    PositionsOfItems[position] = '-';
+                    Souls++;
+                    break;
+                case '*':
+                    PositionsOfItems[position] = '-';
+                    Food++;
+                    break;
+                case 'x':
+                    if (IsOdd(position) && Food > 0)
+                    {
+                        PositionsOfItems[position] = '*';
+                        Food--;
+                        DeadLocks++;
+                        break;
+                    }
+                    else if (!IsOdd(position) && Souls > 0)
+                    {
+                        PositionsOfItems[position] = '@';
+                        Souls--;
+                        DeadLocks++;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("You are deadlocked, you greedy kitty!");
+                        Console.WriteLine($"Jumps before deadlock: {Step}");
+                        Environment.Exit(0);
+                    }
+                    break;
             }
         }
 
