@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForestRoad", "ForestRoad\Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseNumber", "ReverseNumber\ReverseNumber.csproj", "{271E4359-C182-446C-B093-722C6B0AEC5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortThreeNumbers", "SortThreeNumbers\SortThreeNumbers.csproj", "{F6B7C5CD-B2C3-473C-AC59-7A0EBED293E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{271E4359-C182-446C-B093-722C6B0AEC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{271E4359-C182-446C-B093-722C6B0AEC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{271E4359-C182-446C-B093-722C6B0AEC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B7C5CD-B2C3-473C-AC59-7A0EBED293E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B7C5CD-B2C3-473C-AC59-7A0EBED293E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B7C5CD-B2C3-473C-AC59-7A0EBED293E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B7C5CD-B2C3-473C-AC59-7A0EBED293E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
