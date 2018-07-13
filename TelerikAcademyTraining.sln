@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bounce", "Bounce\Bounce.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceV2", "BounceV2\BounceV2.csproj", "{CC85E515-EA6E-4E6E-BD1A-1CBA9E938FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSequenceOfEqual", "LongestIncreasingSequenceOfEqual\LongestIncreasingSequenceOfEqual.csproj", "{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{CC85E515-EA6E-4E6E-BD1A-1CBA9E938FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC85E515-EA6E-4E6E-BD1A-1CBA9E938FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC85E515-EA6E-4E6E-BD1A-1CBA9E938FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

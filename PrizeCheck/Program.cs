@@ -3,15 +3,12 @@ using System.Linq;
 
 namespace PrizeCheck
 {
-    internal static class Program
+    static class Program
     {
-        private static void Main()
+        static void Main()
         {
-            var NonConvertedNumbers = Console.ReadLine()?.Split();
-            if (NonConvertedNumbers?.Length != 7) return;
-            if (NonConvertedNumbers.Any(x => x != null && Convert.ToInt32(x) > 6)) return;
-            if (NonConvertedNumbers.Any(x => x != null && Convert.ToInt32(x) < 2)) return;
-            if (NonConvertedNumbers.Contains("2"))
+            var NonConvertedNumbers = Console.ReadLine().Split();
+            if (NonConvertedNumbers.Contains("2") || !NonConvertedNumbers.Contains("6"))
             {
                 Console.WriteLine("No");
             }
@@ -19,7 +16,6 @@ namespace PrizeCheck
             {
                 foreach (var Six in NonConvertedNumbers.Where(x => x.Contains("6")))
                     Console.Write("*");
-                Console.ReadKey();
             }
         }
     }
