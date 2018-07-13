@@ -1,68 +1,52 @@
 ﻿using System;
-using System.Linq;
 
 namespace SubSetOfSumS
 {
-    internal class Program
+    class Program
     {
-        private static void Main()
+        static void Main()
         {
-            var N = int.Parse(Console.ReadLine());
-            var Numbers = Console.ReadLine()?.Split().Select(int.Parse).ToArray();
+            int Sum = int.Parse(Console.ReadLine());
+            string[] input = Console.ReadLine().Split();
 
-            Quicksort(Numbers, 0, Numbers.Length - 1);
-            var Sum = 0;
+            int[] IntArray = new int[input.Length];
 
-            for (var i = 0; i < Numbers.Length; i++)
-                if (Sum + Numbers[i] <= N)
-                {
-                    if (Sum + Numbers[i] == N || Sum + Numbers[i+1] == N)
-                    {
-                        Console.WriteLine("yes");
-                        break;
-                    }
-                    Sum += Numbers[i];
-                }
-                else if (Sum > N || Sum < N)
-                {
-                    Console.WriteLine("no");
-                    break;
-                }
-
-            Console.ReadLine();
-        }
-
-        private static void Quicksort(int[] elements, int left, int right)
-        {
-            int i = left, j = right;
-            IComparable pivot = elements[(left + right) / 2];
-
-            while (i <= j)
+            for (int i = 0; i < input.Length; i++)
             {
-                while (elements[i].CompareTo(pivot) < 0)
-                    i++;
+                IntArray[i] = int.Parse(input[i]);
+            }
 
-                while (elements[j].CompareTo(pivot) > 0)
-                    j--;
+            long currentSum = 0;
+            int count = 0;
 
-                if (i <= j)
+            for (int i = 1; i <= (int)Math.Pow(2, IntArray.Length) - 1; i++)
+            {
+                currentSum = 0;
+                string temp = Convert.ToString(i, 2).PadLeft(IntArray.Length, '0');
+
+                for (int j = 0; j < temp.Length; j++)
                 {
-                    // Swap
-                    IComparable tmp = elements[i];
-                    elements[i] = elements[j];
-                    elements[j] = (int) tmp;
+                    if (temp[j].ToString() == "1")
+                    {
+                        currentSum += IntArray[j];
+                    }
+                }
 
-                    i++;
-                    j--;
+                if (currentSum == Sum)
+                {
+                    count++;
                 }
             }
 
-            // Recursive calls
-            if (left < j)
-                Quicksort(elements, left, j);
+            if (count > 0)
+            {
+                Console.WriteLine("yes");
+            }
+            else
+            {
+                Console.WriteLine("no");
+            }
 
-            if (i < right)
-                Quicksort(elements, i, right);
         }
     }
 }
