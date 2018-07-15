@@ -131,6 +131,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestThanNeighbours", "La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedsBREAKITDOWN", "Speeds\SpeedsBREAKITDOWN.csproj", "{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonDividable", "NonDividable\NonDividable.csproj", "{C8B1D52D-7CED-48CD-8580-156B8A168E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationSign", "MultiplicationSign\MultiplicationSign.csproj", "{767ADB23-A5D9-402C-9B98-9F1CA281B77B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +397,14 @@ Global
 		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B1D52D-7CED-48CD-8580-156B8A168E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B1D52D-7CED-48CD-8580-156B8A168E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B1D52D-7CED-48CD-8580-156B8A168E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B1D52D-7CED-48CD-8580-156B8A168E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767ADB23-A5D9-402C-9B98-9F1CA281B77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767ADB23-A5D9-402C-9B98-9F1CA281B77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767ADB23-A5D9-402C-9B98-9F1CA281B77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767ADB23-A5D9-402C-9B98-9F1CA281B77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
