@@ -13,20 +13,22 @@ namespace LongestIncreasingSequenceOfEqual
             {
                 Numbers.Add(int.Parse(Console.ReadLine()));
             }
-            int currentNum = 0, maxIncrease = 0;
+            int prevNum = Numbers[0], maxIncrease = 1, currentIncrease = 1;
             foreach (var num in Numbers)
             {
-                if (num > currentNum)
+                if (num > prevNum)
                 {
-                    currentNum = num;
-                    maxIncrease++;
+                    currentIncrease++;
                 }
                 else
                 {
-                    currentNum = num;
-                    maxIncrease = 0;
+                    currentIncrease = 1;
                 }
+
+                prevNum = num;
+                maxIncrease = Math.Max(maxIncrease, currentIncrease);
             }
+            Console.WriteLine(maxIncrease);
         }
     }
 }

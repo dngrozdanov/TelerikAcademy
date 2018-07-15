@@ -127,6 +127,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BounceV2", "BounceV2\Bounce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSequenceOfEqual", "LongestIncreasingSequenceOfEqual\LongestIncreasingSequenceOfEqual.csproj", "{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestThanNeighbours", "LargestThanNeighbours\LargestThanNeighbours.csproj", "{71221F22-7563-451B-A592-875CE4A3B2E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedsBREAKITDOWN", "Speeds\SpeedsBREAKITDOWN.csproj", "{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +385,14 @@ Global
 		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF8747B-223E-465D-BFBB-DCDEA8DC7D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71221F22-7563-451B-A592-875CE4A3B2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71221F22-7563-451B-A592-875CE4A3B2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71221F22-7563-451B-A592-875CE4A3B2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71221F22-7563-451B-A592-875CE4A3B2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFEE012-8092-4A3E-9A81-ED6E0D3E71CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
