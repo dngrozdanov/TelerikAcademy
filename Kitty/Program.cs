@@ -25,7 +25,6 @@ namespace Kitty
                 {
                     Position = (Position + Steps[i]) % PositionsOfItems.Length;
                 }
-                //Console.WriteLine(Position);
                 Step++;
                 CollectItem(Position);
             }
