@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace SubSetOfSumS
 {
@@ -6,47 +7,27 @@ namespace SubSetOfSumS
     {
         static void Main()
         {
-            int Sum = int.Parse(Console.ReadLine());
-            string[] input = Console.ReadLine().Split();
-
-            int[] IntArray = new int[input.Length];
-
-            for (int i = 0; i < input.Length; i++)
+            int totalSum = int.Parse(Console.ReadLine());
+            var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var sums = new bool[totalSum + 1];
+            sums[0] = true;
+            foreach (var num in numbers)
             {
-                IntArray[i] = int.Parse(input[i]);
-            }
-
-            long currentSum = 0;
-            int count = 0;
-
-            for (int i = 1; i <= (int)Math.Pow(2, IntArray.Length) - 1; i++)
-            {
-                currentSum = 0;
-                string temp = Convert.ToString(i, 2).PadLeft(IntArray.Length, '0');
-
-                for (int j = 0; j < temp.Length; j++)
+                for (int i = totalSum; i >= 0; i--)
                 {
-                    if (temp[j].ToString() == "1")
-                    {
-                        currentSum += IntArray[j];
-                    }
-                }
+                    if (!sums[i])
+                        continue;
+                    if (i + num > totalSum)
+                        continue;
 
-                if (currentSum == Sum)
-                {
-                    count++;
+                    sums[i + num] = true;
                 }
             }
 
-            if (count > 0)
-            {
+            if (sums[totalSum])
                 Console.WriteLine("yes");
-            }
             else
-            {
                 Console.WriteLine("no");
-            }
-
         }
     }
 }
