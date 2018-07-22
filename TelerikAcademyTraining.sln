@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
@@ -164,6 +164,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneOOP", "PhoneOOP\PhoneOOP.csproj", "{1C65D5B6-3E8D-434B-8829-74F3C0401522}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodNumbers", "GoodNumbers\GoodNumbers.csproj", "{2C49E699-2032-4D4D-BB47-2811FC847685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsOOP", "GenericsOOP\GenericsOOP.csproj", "{CC6A8EE9-7752-4C80-9522-C16957C43155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +497,10 @@ Global
 		{2C49E699-2032-4D4D-BB47-2811FC847685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C49E699-2032-4D4D-BB47-2811FC847685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C49E699-2032-4D4D-BB47-2811FC847685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6A8EE9-7752-4C80-9522-C16957C43155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6A8EE9-7752-4C80-9522-C16957C43155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6A8EE9-7752-4C80-9522-C16957C43155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6A8EE9-7752-4C80-9522-C16957C43155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
