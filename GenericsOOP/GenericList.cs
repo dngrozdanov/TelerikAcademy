@@ -12,6 +12,7 @@ namespace GenericsOOP
         private int capacity = 0;
 
         public T[] Storage { get { return this.storage; } }
+        public int CurrentIndex { get { return this.counter; } }
 
         public GenericList(int capacity = 1)
         {
@@ -27,7 +28,7 @@ namespace GenericsOOP
             counter++;
         }
 
-        public void RemoveAt(ref T[] arr, int index)
+        public T[] RemoveAt(T[] arr, int index)
         {
             for (int a = index; a < arr.Length - 1; a++)
             {
@@ -36,21 +37,13 @@ namespace GenericsOOP
             }
             // finally, let's decrement Array's size by one
             Array.Resize(ref arr, arr.Length - 1);
+            return arr;
         }
 
         public void Clear()
         {
-            this.storage = null;
-        }
-
-        public bool ElementExistsByIndex(int index)
-        {
-            bool exists = false;
-            if (this.Count >= index)
-                exists = true;
-            else
-                exists = false;
-            return exists;
+            this.storage = new T[1];
+            this.counter = 0;
         }
 
         public int Count
@@ -64,16 +57,20 @@ namespace GenericsOOP
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            foreach (var point in this.Storage)
-            {
-                stringBuilder.AppendLine(point.ToString());
-            }
+            if (this.counter > 0)
+                for (int i = 0; i < this.counter; i++)
+                {
+                    stringBuilder.AppendLine(this.storage[i].ToString());
+                }
+            else
+                stringBuilder.AppendLine("No Path Points existing...");
             return stringBuilder.ToString();
         }
 
         private void IncreaseStorage()
         {
-            var foo = new T[++capacity];
+            var foo = new T[capacity * 2];
+            capacity = capacity * 2;
             Array.Copy(storage, foo, storage.Length);
             storage = foo;
         }
