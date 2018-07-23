@@ -1,50 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace GenericsOOP
 {
     public class GenericList<T>
     {
-        private List<T> storage;
+        private T[] storage;
+        private int counter = 0;
+        private int capacity = 0;
 
-        public List<T> Storage { get => new List<T>(storage); }
+        public T[] Storage { get { return this.storage; } }
 
-        public GenericList(int capacity = 5)
+        public GenericList(int capacity = 1)
         {
-            this.storage = new List<T>(capacity);
+            this.capacity = capacity;
+            this.storage = new T[capacity];
         }
 
         public void Add(T item)
         {
-            this.storage.Add(item);
+            if (capacity == counter)
+                IncreaseStorage();
+            this.storage[counter] = item;
+            counter++;
         }
 
-        public void Remove(T item)
+        public void RemoveAt(ref T[] arr, int index)
         {
-            if (Exists(item))
-                this.storage.Remove(item);
-        }
-
-        public void Remove(int index)
-        {
-            if (ElementExistsByIndex(index))
-                this.storage.RemoveAt(index);
-        }
-
-        public void Insert(T item, int position = 0)
-        {
-            this.storage.Insert(position, item);
+            for (int a = index; a < arr.Length - 1; a++)
+            {
+                // moving elements downwards, to fill the gap at [index]
+                arr[a] = arr[a + 1];
+            }
+            // finally, let's decrement Array's size by one
+            Array.Resize(ref arr, arr.Length - 1);
         }
 
         public void Clear()
         {
-            this.storage.Clear();
-        }
-
-        public int IndexOf(T item)
-        {
-            return this.storage.IndexOf(item);
+            this.storage = null;
         }
 
         public bool ElementExistsByIndex(int index)
@@ -57,16 +53,11 @@ namespace GenericsOOP
             return exists;
         }
 
-        public bool Exists(T item)
-        {
-            return this.storage.Exists(x => x.Equals(item));
-        }
-
         public int Count
         {
             get
             {
-                return this.storage.Count;
+                return this.storage.Length;
             }
         }
 
@@ -78,6 +69,13 @@ namespace GenericsOOP
                 stringBuilder.AppendLine(point.ToString());
             }
             return stringBuilder.ToString();
+        }
+
+        private void IncreaseStorage()
+        {
+            var foo = new T[++capacity];
+            Array.Copy(storage, foo, storage.Length);
+            storage = foo;
         }
     }
 }

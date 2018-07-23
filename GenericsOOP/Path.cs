@@ -11,7 +11,7 @@ namespace GenericsOOP
         /// Initializes a new instance of the <see cref="T:GenericsOOP.Path"/> class.
         /// </summary>
         /// <param name="capacity">GenericList Capacity.</param>
-        public Path(int capacity = 5)
+        public Path(int capacity = 1)
         {
             Points = new GenericList<Point>(capacity);
         }
