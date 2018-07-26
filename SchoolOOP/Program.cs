@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using SchoolOOP.Humans;
 
 namespace SchoolOOP
 {
@@ -9,12 +10,12 @@ namespace SchoolOOP
         static void Main()
         {
             List<Student> students = new List<Student>();
-            students.Add(new Student("Niki", "Zedoff", 6));
-            students.Add(new Student("Danail", "Lipsyl", 4));
-            students.Add(new Student("Viktor", "Kittan", 5));
-            students.Add(new Student("Pesho", "Pushkin", 2));
-            students.Add(new Student("Jack", "Reacher", 1));
-            students.Add(new Student("Todor", "Petrov", 3));
+            students.Add(new Student("Niki", "Zedoff", 6, 1));
+            students.Add(new Student("Danail", "Lipsyl", 4, 2));
+            students.Add(new Student("Viktor", "Kittan", 5, 3));
+            students.Add(new Student("Pesho", "Pushkin", 2, 4));
+            students.Add(new Student("Jack", "Reacher", 1, 5));
+            students.Add(new Student("Todor", "Petrov", 3, 6));
 
             List<Worker> workers = new List<Worker>();
             workers.Add(new Worker("Niki", "Zedoff", 100, 6));
@@ -24,8 +25,8 @@ namespace SchoolOOP
             workers.Add(new Worker("Jack", "Reacher", 25, 8));
             workers.Add(new Worker("Todor", "Petrov", 30, 4));
 
-            var NewStudents = students.OrderBy(x => x.Grade).ToList();
-            var NewWorkers = workers.OrderByDescending(x => x.MoneyPerHour()).ToList();
+            //var NewStudents = students.OrderBy(x => x.Grade).ToList();
+            //var NewWorkers = workers.OrderByDescending(x => x.MoneyPerHour()).ToList();
             // TODO: Merge those 2 lists
         }
     }

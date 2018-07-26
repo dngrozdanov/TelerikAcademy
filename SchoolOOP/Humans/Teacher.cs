@@ -7,12 +7,12 @@ namespace SchoolOOP.Humans
     public class Teacher : Human, ITeacher
     {
         private string comment;
-        private IList<IDiscipline> disciplines;
-        public IList<IDiscipline> Disciplines
+        private IList<Discipline> disciplines;
+        public IList<Discipline> Disciplines
         {
             get
             {
-                return new List<IDiscipline>(disciplines);
+                return new List<Discipline>(disciplines);
             }
             set
             {
@@ -39,13 +39,13 @@ namespace SchoolOOP.Humans
 
         }
 
-        public void AddDiscipline(IDiscipline discipline)
+        public void AddDiscipline(Discipline discipline)
         {
             if (!this.disciplines.Contains(discipline))
                 this.disciplines.Add(discipline);
         }
 
-        public void RemoveDiscipline(IDiscipline discipline)
+        public void RemoveDiscipline(Discipline discipline)
         {
             if (this.disciplines.Contains(discipline))
                 this.disciplines.Remove(discipline);

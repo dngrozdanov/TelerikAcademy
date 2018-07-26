@@ -10,5 +10,9 @@
     <Folder Include="Humans\" />
     <Folder Include="Contracts\" />
     <Folder Include="Enumerators\" />
+    <Folder Include="School\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="School.cs" />
   </ItemGroup>
 </Project>

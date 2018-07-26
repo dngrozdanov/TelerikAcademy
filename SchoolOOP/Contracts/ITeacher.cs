@@ -5,6 +5,6 @@ namespace SchoolOOP.Contracts
 {
     public interface ITeacher : IComment
     {
-        IList<IDiscipline> Disciplines { get; set; }
+        IList<Discipline> Disciplines { get; set; }
     }
 }
