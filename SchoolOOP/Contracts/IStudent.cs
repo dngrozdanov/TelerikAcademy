@@ -3,7 +3,7 @@ using SchoolOOP.Humans;
 
 namespace SchoolOOP.Contracts
 {
-    public interface IStudent
+    public interface IStudent : IComment
     {
         int Grade { get; set; }
         int ClassNumber { get; set; }
